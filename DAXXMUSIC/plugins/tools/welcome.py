@@ -52,11 +52,11 @@ from DAXXMUSIC.utils.database import get_assistant, is_active_chat
 
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/f5c074e63613f683b55d5.jpg",
+    "https://telegra.ph/file/ef07fe4850d3eeeb7fe52.jpg",
+    "https://telegra.ph/file/66be2922335f076c9a5c9.jpg",
+    "https://telegra.ph/file/35f9efd3493dc02102396.jpg",
+    "https://telegra.ph/file/fe52b9c595a97407cb3b2.jpg",
 ]
 # --------------------------------------------------------------------------------- #
 
@@ -187,8 +187,8 @@ async def greet_new_member(_, member: ChatMemberUpdated):
             welcomeimg = welcomepic(
                 pic, user.first_name, member.chat.title, user.id, user.username
             )
-            button_text = "๏ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ๏"
-            add_button_text = "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏"
+            button_text = "❅ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ❅"
+            add_button_text = "❅ ᴋɪᴅɴᴀᴘ ᴍᴇ ❅"
             deep_link = f"tg://openmessage?user_id={user.id}"
             add_link = f"https://t.me/{app.username}?startgroup=true"
             temp.MELCOW[f"welcome-{member.chat.id}"] = await app.send_photo(
@@ -197,12 +197,12 @@ async def greet_new_member(_, member: ChatMemberUpdated):
                 caption=f"""
 **❅────✦ ᴡᴇʟᴄᴏᴍᴇ ✦────❅**
 
-▰▰▰▰▰▰▰▰▰▰▰▰▰
+▼═✦═▼ ▼═✦═▼▼═✦═▼ ▼═✦═▼
 **➻ ɴᴀᴍᴇ »** {user.mention}
 **➻ ɪᴅ »** `{user.id}`
 **➻ ᴜ_ɴᴀᴍᴇ »** @{user.username}
 **➻ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs »** {count}
-▰▰▰▰▰▰▰▰▰▰▰▰▰
+▼═✦═▼ ▼═✦═▼▼═✦═▼ ▼═✦═▼
 
 **❅─────✧❅✦❅✧─────❅**
 """,
