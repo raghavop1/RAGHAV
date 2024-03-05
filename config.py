@@ -16,9 +16,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","RAGHAV_OP")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "KENOXOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@Freemusicspotify_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "KENOX")
+BOT_NAME = getenv("BOT_NAME" , "SPOTIFY PREMUIM MUSIC")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 # ---------------------------------------------------------
@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/raghavop1/RAGHAV",
+    "https://github.com/raghavoo/RAGHAVSPOTIFY",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
