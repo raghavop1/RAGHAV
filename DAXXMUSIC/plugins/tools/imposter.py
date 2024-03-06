@@ -31,7 +31,7 @@ ROY = [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ",
             url=f"https://t.me/KENOXBOT?startgroup=true"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/rafgavsupport")
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/raghavsupport")
     ],
 ]
 
