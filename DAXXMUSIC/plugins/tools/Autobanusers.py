@@ -1,10 +1,10 @@
 from pyrogram.types import Message
 from time import time
 from pyrogram import client, filters
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import add_gban_user
-from VIPMUSIC.utils.extraction import extract_user
+from DAXXMUSIC import app
+from DAXXMUSIC.misc import SUDOERS
+from DAXXMUSIC.utils.database import add_gban_user
+from DAXXMUSIC.utils.extraction import extract_user
 from config import BANNED_USERS
 
 # Define a dictionary to track the last message timestamp for each user
